@@ -1,0 +1,56 @@
+.header-logo {
+    float: left;
+    padding-top: 11.37px;
+    padding-left: 230.1px;
+    padding-bottom: 10.65px;
+}
+
+body {
+    width:1440px;
+}
+
+main {
+    width:980px;
+    
+
+}
+
+li {
+    list-style: none;
+    float:right ;
+    color: #5F2201;
+    font-size: 18px;
+    padding-right: 230px;
+    padding: 31px 31px;
+    font-weight: bold;
+}
+
+
+.moji {
+    font-size:36px;
+    color: #5F2201;
+    margin-top: 100px ;
+    margin-left: 453px;
+    margin-right:452px;
+}
+
+.main.p  {
+    float:right;
+}
+.main.about {
+    background-color: #FFF3DD;
+}
+.main.contact {
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color: #B9B9B9;
+    text-align: center;
+    width:1440px;
+    height: 60px;
+}
+footer p {
+    color: #FFFFFF;
+    padding-top: 24px;
+}
