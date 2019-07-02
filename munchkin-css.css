@@ -7,6 +7,8 @@
 
 body {
     width:1440px;
+    text-align: center;
+    margin: auto;
 }
 
 main {
@@ -34,16 +36,33 @@ li {
     margin-right:452px;
 }
 
-.main.p  {
+section {
     float:right;
 }
-.main.about {
-    background-color: #FFF3DD;
+.image {
+    float:right;
 }
-.main.contact {
-    background-color: #FFFFFF;
+.about {
+    background-color: #FFF3DD;
+    margin-top:500px;
 }
 
+
+.more {
+    border-radius:10px;
+    color: #5F2201;
+    text-decoration: none;
+    border: 1px solid #5F2201;
+    padding:5px;
+}
+
+.contact {
+    background-color: #FFFFFF;
+    
+}
+.contact p {
+    float:right;
+}
 footer {
     background-color: #B9B9B9;
     text-align: center;
@@ -53,4 +72,12 @@ footer {
 footer p {
     color: #FFFFFF;
     padding-top: 24px;
+}
+.map {
+    color:#5F2201;
+    text-decoration: none;
+    border-radius:10px;
+    border: 1px solid #5F2201;
+    padding:5px;
+    
 }
