@@ -31,36 +31,42 @@ li {
 .moji {
     font-size:36px;
     color: #5F2201;
-    margin-top: 50px ;
-    margin-left: 453px;
-    margin-right:452px;
+    width:80%;
+    margin: auto;
+    padding: 50px 0px;
+    
     
 }
+
 .moji-about {
     font-size:36px;
     color: #5F2201;
-    margin-top: 50px ;
-    
-    margin-right:452px;
+    width:80%;
+    margin: auto;
+    padding: 50px 0px;
     
 }
 
 .skill {
     display:flex;
-    margin-top:100px;
+    
     font-size:10px;
-    padding-left:453px;
+    width:80%;
+    margin: auto;
+    padding: 50px 0px;
 }
 .neru {
     padding-left:100px;
 }
-.about {
-    padding-top: 50px;
+.back {
     background-color: #FFF3DD;
-    margin-top:200px;
-    height: 500px;
-    padding-left:453px;
+}
+.about {
+   
+    height: 700px;
     font-size:10px;
+    width:80%;
+    margin: auto;
 }
 
 .cat {
@@ -68,9 +74,13 @@ li {
     display: flex;
     margin-top: 50px;
     margin-left:50px;
+    font-size:10px;
+    font-weight: bold;
 }
 .cat-1 {
     padding-left: 100px;
+    font-size:10px;
+    font-weight: bold;
 }
 
 .more {
@@ -78,17 +88,25 @@ li {
     color: #5F2201;
     text-decoration: none;
     border: 1px solid #5F2201;
-    padding:5px;
-    margin-right: 320px;
-    
+    padding:10px;
+    margin-right: 120px;
+    background-color: #FFFFFF;
 }
+
 
 .contact {
     background-color: #FFFFFF;
-     display: flex;
-     margin-left:453px;
+    display: flex;
     font-size:10px;
+    width:80%;
+    margin: 0 auto;
+    font-weight: bold;
 }
+
+.con-img {
+    margin-left: 100px;
+}
+
 
 footer {
     background-color: #B9B9B9;
@@ -98,6 +116,7 @@ footer {
 }
 footer p {
     color: #FFFFFF;
+    padding-top: 15px;
     
 }
 .map {
@@ -106,9 +125,10 @@ footer p {
     border-radius:10px;
     border: 1px solid #5F2201;
     padding:5px;
-    margin-left:500px;
+    margin-left:10px;
+    
    
 }
 .you {
-    padding-left: 100px;
+   margin-left:350px;
 }
