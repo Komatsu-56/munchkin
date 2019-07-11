@@ -1,7 +1,11 @@
+header {
+    margin: 0 auto;
+    width:80%;
+}
+
 .header-logo {
     float: left;
     padding-top: 11.37px;
-    padding-left: 230.1px;
     padding-bottom: 10.65px;
 }
 
@@ -22,8 +26,8 @@ li {
     float:right ;
     color: #5F2201;
     font-size: 18px;
-    padding-right: 230px;
-    padding: 31px 31px;
+    
+    padding: 31px 40px;
     font-weight: bold;
 }
 
