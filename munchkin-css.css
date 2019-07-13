@@ -59,9 +59,32 @@ li {
     margin: auto;
     padding: 50px 0px;
 }
-.neru {
-    padding-left:100px;
+
+.skill-2 {
+     display:flex;
+    
+    font-size:10px;
+    width:80%;
+    margin: auto;
+    padding: 50px 0px;
 }
+
+.neko {
+    width:400px;
+    height:166px;
+    margin-left:180px;
+}
+.neko-2 {
+    width:400px;
+    height:166px;
+    
+}
+
+.image {
+    margin-left:180px;
+}
+
+
 .back {
     background-color: #FFF3DD;
 }
