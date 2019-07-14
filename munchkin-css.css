@@ -36,7 +36,7 @@ li {
     font-size:36px;
     color: #5F2201;
     width:80%;
-    margin: auto;
+    margin: 0 auto;
     padding: 50px 0px;
     
     
@@ -46,39 +46,41 @@ li {
     font-size:36px;
     color: #5F2201;
     width:80%;
-    margin: auto;
+    margin: 0 auto;
     padding: 50px 0px;
     
 }
+
 
 .skill {
     display:flex;
-    
-    font-size:10px;
+    font-size:16px;
     width:80%;
-    margin: auto;
     padding: 50px 0px;
+    text-align:left;
+    margin: 0 auto;
 }
 
 .skill-2 {
-     display:flex;
-    
-    font-size:10px;
+    display:flex;
+    font-size:16px;
     width:80%;
-    margin: auto;
     padding: 50px 0px;
+    text-align:left;
+     margin: 0 auto;
 }
 
 .neko {
     width:400px;
     height:166px;
-    margin-left:180px;
+    margin-left:330px;
 }
 .neko-2 {
     width:400px;
     height:166px;
-    
+    margin-right:100px;
 }
+
 
 .image {
     margin-left:180px;
@@ -91,23 +93,22 @@ li {
 .about {
    
     height: 700px;
-    font-size:10px;
+    font-size:16px;
     width:80%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .cat {
     
     display: flex;
     margin-top: 50px;
-    margin-left:50px;
-    font-size:10px;
-    font-weight: bold;
+    margin-left:100px;
+    font-size:16px;
+    
 }
 .cat-1 {
-    padding-left: 100px;
-    font-size:10px;
-    font-weight: bold;
+    
+    margin-left:250px;
 }
 
 .more {
@@ -116,18 +117,19 @@ li {
     text-decoration: none;
     border: 1px solid #5F2201;
     padding:10px;
-    margin-right: 120px;
+   
     background-color: #FFFFFF;
+    
 }
 
 
 .contact {
     background-color: #FFFFFF;
     display: flex;
-    font-size:10px;
+    font-size:16px;
     width:80%;
     margin: 0 auto;
-    font-weight: bold;
+   
 }
 
 .con-img {
@@ -151,7 +153,7 @@ footer p {
     text-decoration: none;
     border-radius:10px;
     border: 1px solid #5F2201;
-    padding:5px;
+    padding:10px;
     margin-left:10px;
     
    
