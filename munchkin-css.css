@@ -47,7 +47,7 @@ li {
     color: #5F2201;
     width:80%;
     margin: 0 auto;
-    padding: 50px 0px;
+    padding-top: 100px;
     
 }
 
@@ -73,22 +73,27 @@ li {
 .neko {
     width:400px;
     height:166px;
-    margin-left:330px;
+    margin-left:180px;
 }
 .neko-2 {
     width:400px;
     height:166px;
-    margin-right:100px;
+     margin-left:140px; 
+}
+.image-1 {
+   margin-left:140px;
+  
 }
 
-
-.image {
+.image-2 {
     margin-left:180px;
+    
 }
 
 
 .back {
     background-color: #FFF3DD;
+    margin-top:100px;
 }
 .about {
    
@@ -129,11 +134,12 @@ li {
     font-size:16px;
     width:80%;
     margin: 0 auto;
+    margin-top:25px;
    
 }
 
 .con-img {
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 
@@ -146,6 +152,7 @@ footer {
 footer p {
     color: #FFFFFF;
     padding-top: 15px;
+    margin-top:100px;
     
 }
 .map {
@@ -155,7 +162,8 @@ footer p {
     border: 1px solid #5F2201;
     padding:10px;
     margin-left:10px;
-    
+    margin-top: 25px;
+    display:inline-block;
    
 }
 .you {
