@@ -1,0 +1,6 @@
+@media (max-width: 375px) {
+  .image-1,.neko,.neko-2,.image-2,.more,.con-image,.you,.map 
+  {
+    width:100%;
+  }
+}

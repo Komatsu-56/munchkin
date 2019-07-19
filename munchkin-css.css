@@ -38,7 +38,7 @@ li {
     width:80%;
     margin: 0 auto;
     padding: 50px 0px;
-    
+    font-weight:bold;
     
 }
 
@@ -48,6 +48,16 @@ li {
     width:80%;
     margin: 0 auto;
     padding-top: 100px;
+    font-weight:bold;
+}
+
+.moji-contact {
+    font-size:36px;
+    color: #5F2201;
+    width:80%;
+    margin: 0 auto;
+    padding-top: 100px ;
+    font-weight:bold;
     
 }
 
@@ -111,18 +121,18 @@ li {
     font-size:16px;
     
 }
-.cat-1 {
+.cat-2 {
     
     margin-left:250px;
 }
 
 .more {
-    border-radius:10px;
+    border-radius:35px;
     color: #5F2201;
     text-decoration: none;
-    border: 1px solid #5F2201;
-    padding:10px;
-   
+    border: 3px solid #5F2201;
+     padding:10px 30px 10px 30px;
+   font-weight:bold;
     background-color: #FFFFFF;
     
 }
@@ -158,14 +168,14 @@ footer p {
 .map {
     color:#5F2201;
     text-decoration: none;
-    border-radius:10px;
-    border: 1px solid #5F2201;
-    padding:10px;
+    border-radius:35px;
+    border: 3px solid #5F2201;
+    padding:10px 30px 10px 30px;
     margin-left:10px;
-    margin-top: 25px;
+    margin-top: 10px;
     display:inline-block;
-   
+    font-weight:bold;
 }
 .you {
-   margin-left:350px;
+   margin-left:300px;
 }
