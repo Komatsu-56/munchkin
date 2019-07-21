@@ -42,3 +42,34 @@
     width:375px;
   }
 }
+
+@media (max-width:375px) and (max-height:812px) {
+  body {
+    background-color: #DDDDDD;
+  }
+  .header-logo,.slide,.skill,.skill-2,.cat,.more,.contact,footer {
+    display:none;
+   
+  }
+  .back {
+     background-color: #DDDDDD;
+     height: 120px;
+     margin:0 auto;
+  }
+  .about {
+    height: 200px;
+  }
+  .moji {
+   height: 0px;
+   margin-top: 160px;
+  }
+  
+   .fa-times {
+    display: block!important;
+    font-size:30px;
+    margin-left:250px;
+    }
+    .fa-bars {
+      display:none!important;
+    }
+}
