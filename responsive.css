@@ -4,13 +4,20 @@
   li {
     display:none;
   }
-  .header-logo {
-    width:100px;
+  .header-logo img {
+    width:125px;
    
-  }
+   }
+   .slide img {
+     width:375px;
+   }
   .fa-bars {
     display: block!important;
     font-size:30px;
+    margin-left:250px;
+    }
+ .moji,.moji-about,.moji-contact {
+    font-size:20px;
   }
   
   body {
