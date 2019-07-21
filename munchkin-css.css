@@ -9,6 +9,12 @@ header {
     padding-bottom: 10.65px;
 }
 
+.fa-bars{
+    display: none!important;
+    font-size:70px;
+    color:#5F2201;
+}
+
 body {
     width:1440px;
     text-align: center;

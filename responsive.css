@@ -1,0 +1,37 @@
+@media  (max-width: 375px) {
+  
+ 
+  li {
+    display:none;
+  }
+  .header-logo {
+    width:100px;
+   
+  }
+  .fa-bars {
+    display: block!important;
+    font-size:30px;
+  }
+  
+  body {
+    width:375px; 
+    
+  }
+  .skill,.skill-2,.neko,.neko-2,.image-1,.image-2,.cat,.cat-2,.con-img,.you {
+    margin-left:5px;
+    margin-right:5px;
+    display:block;
+    font-size:15px;
+  }
+  .contact {
+    display: block;
+    font-size:15px;
+  }
+  
+  .back {
+    height: 1000px;
+  }
+  footer {
+    width:375px;
+  }
+}
