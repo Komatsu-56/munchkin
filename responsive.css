@@ -9,15 +9,97 @@
    
    }
    .slide img {
-     width:375px;
+     width:768px;
    }
   .fa-bars {
     display: block!important;
     font-size:30px;
-    margin-left:250px;
+    margin-left:550px;
     }
  .moji,.moji-about,.moji-contact {
     font-size:20px;
+  }
+  
+  body {
+    width:768px; 
+    
+  }
+  .skill,.skill-2,.neko,.neko-2,.image-1,.image-2,.cat,.cat-2,.con-img,.you {
+    margin-left:5px;
+    margin-right:5px;
+    
+    font-size:15px;
+    
+  }
+  
+  .skill,.skill-2 {
+    margin: 0 auto;
+  }
+  .image-1 img {
+    width:250px;
+  }
+  .image-2 img {
+    width: 250px;
+    
+  }
+  
+  .neko {
+    width:250px;
+    margin-left:50px;
+  }
+  .neko-2 {
+    width:250px;
+    margin-right:50px;
+  }
+  .contact {
+  
+    font-size:15px;
+  }
+  
+  
+    
+  
+  .more {
+    display:inline-block;
+    margin-top:50px;
+  }
+  .you {
+    
+    margin-left:50px;
+  }
+  footer {
+    width:768px;
+  }
+}
+
+@media  (max-width: 414px) {
+  
+ 
+  li {
+    display:none;
+  }
+
+
+  .header-logo img {
+    width:100px;
+   
+   }
+   .slide {
+     margin-right:40px;
+   }
+   .slide img {
+     width:414px;
+   }
+  .fa-bars {
+    display: block!important;
+    font-size:20px;
+    margin-left:200px;
+    padding-top:15px;
+  }
+ .moji,.moji-about,.moji-contact {
+    font-size:20px;
+    padding-top:15px;
+    padding-bottom:15px;
   }
   
   body {
@@ -25,10 +107,21 @@
     
   }
   .skill,.skill-2,.neko,.neko-2,.image-1,.image-2,.cat,.cat-2,.con-img,.you {
-    margin-left:5px;
-    margin-right:5px;
+    margin-left:15px;
+    margin-right:15px;
     display:block;
     font-size:15px;
+    
+  }
+  .neko {
+     margin-left:0px;
+  }
+  .skill-2 {
+    margin-left:0px;
+  }
+  .image-2 {
+    margin-left:8px;
+    
   }
   .contact {
     display: block;
@@ -37,15 +130,22 @@
   
   .back {
     height: 1000px;
+    width:414px;
+  }
+  .about {
+    width:95%;
   }
   footer {
-    width:375px;
+    width:414px;
   }
 }
 
-@media (max-width:414px)  {
+
+@media (max-width:320px)  {
   body {
     background-color: #DDDDDD;
+    height: 812px;
+    
   }
   .header-logo,.slide,.skill,.skill-2,.cat,.more,.contact,footer {
     display:none;
@@ -61,13 +161,18 @@
   }
   .moji {
    height: 0px;
-   margin-top: 160px;
+   margin-top: 80px;
+   margin-bottom: 75px;
+   margin-left: 0px;
+  }
+  .moji-about,.moji-contact{
+    margin-left: 0px;
   }
   
    .fa-times {
     display: block!important;
-    font-size:30px;
-    margin-left:250px;
+    font-size:20px;
+    margin-left:100px;
     }
     .fa-bars {
       display:none!important;
