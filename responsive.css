@@ -1,6 +1,8 @@
 @media  (max-width: 768px) {
   
- 
+  body {
+    width:768px;
+  }
   li {
     display:none;
   }
@@ -20,10 +22,6 @@
     font-size:20px;
   }
   
-  body {
-    width:768px; 
-    
-  }
   .skill,.skill-2,.neko,.neko-2,.image-1,.image-2,.cat,.cat-2,.con-img,.you {
     margin-left:5px;
     margin-right:5px;
@@ -56,9 +54,6 @@
     font-size:15px;
   }
   
-  
-    
-  
   .more {
     display:inline-block;
     margin-top:50px;
@@ -74,18 +69,17 @@
 
 @media  (max-width: 414px) {
   
- 
   li {
     display:none;
   }
-
-
+  
   .header-logo img {
-    width:100px;
-   
+    width:125px;
+     margin-left:-20px;
    }
    .slide {
      margin-right:40px;
+     padding-top:15px;
    }
    .slide img {
      width:414px;
@@ -93,53 +87,102 @@
   .fa-bars {
     display: block!important;
     font-size:20px;
-    margin-left:200px;
+    margin-left:280px;
     padding-top:15px;
   }
- .moji,.moji-about,.moji-contact {
+ .moji,.moji-contact {
     font-size:20px;
-    padding-top:15px;
+    padding-top:30px;
     padding-bottom:15px;
   }
   
-  body {
-    width:414px; 
-    
+  .moji-about{
+    font-size:20px;
+    padding-top:50px;
+    padding-bottom:15px;
   }
-  .skill,.skill-2,.neko,.neko-2,.image-1,.image-2,.cat,.cat-2,.con-img,.you {
+ body {
+    width: 414px;
+}
+  
+  .cat {
     margin-left:15px;
     margin-right:15px;
     display:block;
     font-size:15px;
-    
   }
-  .neko {
-     margin-left:0px;
+  .con-img {
+    margin:0 auto;
+    display:block;
+    font-size:15px;
+    width:300px;
+    height:300px;
   }
+  .you {
+    margin-left:15px;
+    margin-right:15px;
+    display:block;
+    font-size:15px;
+  }
+  .map {
+    margin-top:5px;
+  }
+  .cat-2 {
+    margin-left:15px;
+    margin-right:15px;
+    display:block;
+    font-size:15px;
+    padding-top:30px;
+  }
+  .neko,.neko-2 {
+    width:390px;
+    margin:15px auto;
+  }
+  .skill {
+    flex-direction: column;
+    margin:-25px auto;
+    width:400px;
+    height:450px;
+  }
+  
   .skill-2 {
-    margin-left:0px;
+    margin:15px  auto;
+    flex-direction: column-reverse;
+     width:400px;
+     height: 400px;
+     margin-bottom:-15px;
   }
-  .image-2 {
-    margin-left:8px;
+  
+  .skill img ,.skill-2 img{
+    width:100%;
     
   }
+  
   .contact {
     display: block;
     font-size:15px;
+     width:414px;
   }
   
   .back {
     height: 1000px;
     width:414px;
+    margin-top:0px;
   }
   .about {
     width:95%;
   }
   footer {
     width:414px;
+    margin-top:-50px;
+    font-size:12px;
+    height:30px;
+  }
+  footer p {
+   padding-top:6px;
   }
 }
-
+  
 
 @media (max-width:320px)  {
   body {
