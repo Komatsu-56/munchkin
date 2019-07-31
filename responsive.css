@@ -3,8 +3,8 @@
   body {
     width:768px;
   }
-  li {
-    display:none;
+  .navToggle {
+    display:block;
   }
   .header-logo img {
     width:125px;
@@ -13,11 +13,9 @@
    .slide img {
      width:768px;
    }
-  .fa-bars {
-    display: block!important;
-    font-size:30px;
-    margin-left:550px;
-    }
+  .header-list li {
+   display: none;
+ }
  .moji,.moji-about,.moji-contact {
     font-size:20px;
   }
@@ -69,14 +67,17 @@
 
 @media  (max-width: 414px) {
   
-  li {
-    display:none;
-  }
-  
   .header-logo img {
     width:125px;
      margin-left:-20px;
    }
+   
+   .navToggle {
+    display:block;
+  }
+   .header-list li {
+   display: none;
+ }
    .slide {
      margin-right:40px;
      padding-top:15px;
@@ -84,12 +85,7 @@
    .slide img {
      width:414px;
    }
-  .fa-bars {
-    display: block!important;
-    font-size:20px;
-    margin-left:280px;
-    padding-top:15px;
-  }
+  
  .moji,.moji-contact {
     font-size:20px;
     padding-top:30px;
@@ -186,41 +182,89 @@
 @media (max-width:375px) {
   .slide img {max-width: 100%;
 }
+.navToggle {
+    display:block;
+  }
+ .header-list li {
+   display: none;
+ }
+.skill {
+  margin: 0 10px;
+  width:375px;
 }
-@media (max-width:320px)  {
-  body {
-    background-color: #DDDDDD;
-    height: 812px;
+.skill-2 {
+  margin:0 10px;
+  width:375px;
+}
+.skill img ,.skill-2 img{
+    width:94%;
     
   }
-  .header-logo,.slide,.skill,.skill-2,.cat,.more,.contact,footer {
-    display:none;
-   
-  }
   .back {
-     background-color: #DDDDDD;
-     height: 120px;
-     margin:0 auto;
+    height: 1000px;
+    width: 375px;
+    }
+    
+  .neko, .neko-2 {
+    width: 359px;
+    margin: 15px 3px;
   }
-  .about {
-    height: 200px;
+  .contact {
+    margin:0 5px;
+    width:375px;
   }
   .moji {
-   height: 0px;
-   margin-top: 80px;
-   margin-bottom: 75px;
-   margin-left: 0px;
+    width:375px;
+    margin:0 ;
   }
-  .moji-about,.moji-contact{
-    margin-left: 0px;
+  .moji-contact 
+   { width:375px;
+     margin:0 5px;
   }
-  
-   .fa-times {
-    display: block!important;
-    font-size:20px;
-    margin-left:100px;
-    }
-    .fa-bars {
-      display:none!important;
-    }
+  footer {
+    width:375px;
+  }
+}
+
+
+
+@media (max-width:320px)  {
+
+  .navToggle {
+    display:block;
+  }
+  .cover {
+    width:320px;
+  }
+  .slide {
+    margin-right: 0px;
+  }
+  .slide img {
+    width:320px;
+    
+  }
+ 
+  .con-img {
+    margin: 0 5px;
+  }
+  .neko, .neko-2 {
+    width: 300px;
+   
+  }
+  .skill img, .skill-2 img {
+    width: 80%;
+   }
+   .back {
+    width: 320px;
+}
+  .moji-contact {
+    width: 320px;
+  }
+  .you {
+    width:320px;
+    margin:0;
+  }
+  footer {
+    width: 320px;
+}
 }
