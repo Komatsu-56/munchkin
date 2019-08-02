@@ -14,7 +14,7 @@ $(function() {
         var id = $(this).attr("href");
         var position = $(id).offset().top;
         $("htmi,body").animate({
-            "scrollTop": position },500
+            "scrollTop": position },5000
         );
     });
     

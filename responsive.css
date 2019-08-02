@@ -2,7 +2,9 @@
   
   body {
     width:768px;
-  }
+    
+}
+  
   .header-logo img {
     width:125px;
    
@@ -94,6 +96,7 @@
   }
  body {
     width: 414px;
+    overflow: auto;
 }
   
   .cat {
@@ -175,6 +178,9 @@
 }
 
 @media (max-width:375px) {
+  body {
+    overflow: auto;
+  }
   .slide img {max-width: 100%;
 }
 .navToggle {
@@ -225,6 +231,9 @@
 
 @media (max-width:320px)  {
 
+  body {
+    overflow: auto;
+  }
   .navToggle {
     display:block;
     right:40px;

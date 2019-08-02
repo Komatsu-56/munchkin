@@ -106,7 +106,7 @@ body {
     width:1440px;
     text-align: center;
     margin: auto;
-    
+    overflow: auto;
 }
 
 main {
