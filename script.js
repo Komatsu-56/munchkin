@@ -13,8 +13,8 @@ $(function() {
     $("header a").click(function(){
         var id = $(this).attr("href");
         var position = $(id).offset().top;
-        $("htmi,body").animate({
-            "scrollTop": position },5000
+        $("html,body").animate({
+            "scrollTop": position },1500
         );
     });
     
