@@ -11,6 +11,12 @@ header {
     padding-bottom: 10.65px;
 }
 
+a {
+  text-decoration: none;
+  color: #5F2201;
+  transition: all .3s;
+}
+
 .globalMenuSp {
     position:fixed;
     z-index: 2;
@@ -114,9 +120,9 @@ li {
     float:right ;
     color: #5F2201;
     font-size: 18px;
-    
     padding: 31px 40px;
     font-weight: bold;
+
 }
 
 

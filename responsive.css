@@ -3,19 +3,18 @@
   body {
     width:768px;
   }
-  .navToggle {
-    display:block;
-  }
   .header-logo img {
     width:125px;
    
    }
+   .header-list li {
+     padding: 15px 15px;
+   }
    .slide img {
      width:768px;
    }
-  .header-list li {
-   display: none;
- }
+  
+ 
  .moji,.moji-about,.moji-contact {
     font-size:20px;
   }
@@ -23,9 +22,7 @@
   .skill,.skill-2,.neko,.neko-2,.image-1,.image-2,.cat,.cat-2,.con-img,.you {
     margin-left:5px;
     margin-right:5px;
-    
     font-size:15px;
-    
   }
   
   .skill,.skill-2 {
@@ -48,7 +45,6 @@
     margin-right:50px;
   }
   .contact {
-  
     font-size:15px;
   }
   
@@ -57,7 +53,6 @@
     margin-top:50px;
   }
   .you {
-    
     margin-left:50px;
   }
   footer {
@@ -232,6 +227,9 @@
 
   .navToggle {
     display:block;
+    right:40px;
+    width:14px;
+    height:14px;
   }
   .cover {
     width:320px;
@@ -259,6 +257,9 @@
 }
   .moji-contact {
     width: 320px;
+  }
+  .moji {
+    width:320px;
   }
   .you {
     width:320px;

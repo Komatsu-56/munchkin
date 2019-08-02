@@ -9,6 +9,14 @@ $(function() {
             $(".globalMenuSp").removeClass("active")
         }
     });
+   
+    $("header a").click(function(){
+        var id = $(this).attr("href");
+        var position = $(id).offset().top;
+        $("htmi,body").animate({
+            "scrollTop": position },500
+        );
+    });
     
     
 });
