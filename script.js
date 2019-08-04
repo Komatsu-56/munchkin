@@ -22,6 +22,7 @@ $(function() {
             "scrollTop": position },1500
         );
         $(".globalMenuSp").removeClass("active");
+        $(".navToggle").removeClass("active");
     });
     
     
